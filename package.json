@@ -1,0 +1,23 @@
+{
+  "name": "ts-exercise-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "start": "tsc && node dist/index.js",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.4",
+    "node-fetch": "^3.3.2",
+    "winston": "^3.11.0"
+  }
+}
